@@ -1,0 +1,211 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+#main-content {
+	position: relative;
+	margin-top: 48px;
+	margin-left: 190px;
+	background-color: #EFEFEF;
+	padding: 1% 2%;
+	color: #666666;
+}
+.header {
+	width: 100%;
+	padding: 5px;
+	position: fixed;
+	background-color: #343A49;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	border-bottom: 1px solid #202631;
+}
+#sidebar {
+	position: fixed;
+	left: 0;
+	top: 48px;
+	height: 100%;
+	width: 210px;
+	z-index: 20;
+	background-color: #343A49;
+	color: white;
+}
+.sidebar-toggle-box{
+	z-index: 10;
+	display: inline-block;
+}
+.sidebar-toggle-box .tooltips {
+	color: white;
+	font-size: 22px;
+}
+.logo {
+	color: white;
+}
+.logo:hover {
+	color: white;
+}
+.logout {
+	font-size: 12px;
+	margin-top: -25px;
+	background-color: #7B4489;
+	color: white;
+	border-radius: 10px;
+}
+.sub-menu {
+	list-style: none;
+	margin-left: -35px;
+}
+.sub-menu span i {
+	color: white;
+}
+h5, img {
+	margin-left: -40px;
+}
+.title-adv {
+	font-size: 18px;
+	padding-left: 10px;
+}
+.sidebar-menu li a:hover, .sidebar-menu li a:focus {
+    background: #7B4489;
+    color: white;
+}
+.sidebar-menu li .active {
+    background: #7B4489;
+    color: white;
+    display: block;
+}
+.sidebar-menu li a {
+	color: gray;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 10px;
+    font-size: 12px;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.23, 0.1, 0.25, 1);
+}
+.ds {
+	background-color: white;
+}
+.ds h3 {
+	background-color: #7B4489;
+	padding: 15px 30px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+.badge {
+	background-color: #7DD6EA;
+	margin-top: -20px;
+	margin-left: 5px;
+}
+.box0 {
+	text-align: center;
+}
+.box1 {
+    padding: 20px;
+    text-align: center;
+    color: #989898;
+    border-bottom: 1px solid #989898;
+}
+.icons-fa {
+	font-size: 40px;
+}
+.box0 p {
+	visibility: hidden;
+}
+.box0:hover p{
+	visibility: visible;
+	color: orange;
+	margin-top: -20px;
+}
+.box0:hover {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #FFFFFF;
+    visibility: visible;
+    box-shadow: 0 5px 5px 0 #ccc;
+}
+.box0:hover .box1{
+	border-bottom: none;
+}
+.buttons a {
+	margin-left: 5px;
+}
+.showback, .form-panel, .content-panel {
+	background-color: white;
+	box-shadow: 1px 2px 4px 1px #ccc;
+	padding: 10px;
+	margin: 15px;
+}
+.details {
+	padding: 0 20px 0 30px;
+	margin-left: 10px;
+	margin-top: -35px;
+	font-size: 10px;
+}
+a {
+	color: #4F81BE;
+}
+.imagen-cl {
+	margin-left: -1px;
+}
+.thumb {
+	display: block;
+}
+.page-header {
+	margin-top: -20px;
+}
+.details muted {
+	font-style: italic;
+	text-transform: uppercase;
+}
+.space-top {
+	margin-top: 20px;
+}
+.mt {
+	padding: 10px 50px;
+}
+.photo {
+	margin-right: 40px;
+}
+#login-page {
+	background-color: #EFEFEF;
+}
+.form-login {
+    max-width: 330px;
+    margin: 100px auto 0;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.form-login-heading {
+	background: #68dff0;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    padding: 25px 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.login-wrap {
+	padding: 20px;
+}
+.form-group {
+	margin-bottom: 15px;
+}
+.registration {
+	padding-top: 20px;
+	text-align: center;
+}
